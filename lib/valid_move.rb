@@ -4,7 +4,7 @@ def valid_move?(board, pos)
   if pos > posSize
     return false
   end
-  return position_taken(board, pos)
+  return position_taken?(board, pos)
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
