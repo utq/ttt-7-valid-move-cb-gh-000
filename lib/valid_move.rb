@@ -13,4 +13,5 @@ def position_taken?(baord, pos)
     return false
   else
     return true
+  end
 end
