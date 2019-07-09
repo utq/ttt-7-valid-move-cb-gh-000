@@ -11,8 +11,8 @@ end
 def position_taken?(board, pos)
   posItem = board[pos]
   if posItem == " " or posItem == "" or posItem == nil
-    return false
-  else
     return true
+  else
+    return false
   end
 end
