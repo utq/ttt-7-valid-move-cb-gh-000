@@ -8,11 +8,11 @@ def valid_move?(board, pos)
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-def position_taken?(baord, pos)
+def position_taken?(board, pos)
   posItem = board[pos]
   if posItem == " " or posItem == "" or posItem == nil
-    return true
-  else
     return false
+  else
+    return true
   end
 end
